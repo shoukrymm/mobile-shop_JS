@@ -1,0 +1,101 @@
+/* ********************************* Card  *********************** **/
+
+.card{
+    background-color: #F2F2F2;
+    margin: 50px 0px;
+    width: 70%;
+    position: relative;
+    margin-left: 200px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.card h1{
+    padding: 20px;
+}
+.card hr{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.card img{
+    width: 170px;
+    height: 170px;
+    margin: 0px 70px 20px 20px;
+}
+
+.card-info{
+    display: inline-block;
+    position: absolute;
+}
+.card-info .title pre{
+    color: #C1262E;
+}
+.card-info .rate{
+    color: red;
+    margin-bottom: 10px;
+}
+.card-info .ship{
+    color: cornflowerblue;
+}
+
+.card-info select {
+        display: inline-block;
+        width: 80px;
+        margin: 0px;
+        font-size: 10px;
+        height: 35px;
+        width: 71.5px;
+}
+
+.card-info .card-footer pre { 
+    display: inline-block; 
+    color: rgb(131, 131, 131);
+}
+.card .total{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.submitbtn{
+    padding: 10px 70px;
+    color: white;
+    background-color: #C1262E;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin: 0px 0px 15px 800px;
+}
+.card button:hover{
+    background-color: #c1262e48;
+}
+
+.deletebtn{
+    padding: 10px 30px;
+    color: white;
+    background-color: #C1262E;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 0px 0px 15px 10px;
+}
+
+.qty{
+    width: 40px;
+    padding: 5px 2px;
+}
+.price{
+    margin-left: 300px;
+    color: #C1262E;
+}
+
+
+
+
+/* ********************************* card  *********************** **/

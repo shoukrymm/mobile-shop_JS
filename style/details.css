@@ -1,0 +1,62 @@
+/* ********************************* Details us *********************** **/
+.details{
+    margin: 150px 180px 200px 400px;
+    position: relative;
+}
+
+.details .img1{
+    width: 300px;
+}
+
+
+.images, .disc{
+    display: inline-block;
+}
+
+.disc{
+    position: absolute;
+    margin-left: 90px;
+}
+.disc h2{
+    padding-bottom: 40px;
+}
+.disc h3,p{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.disc p{
+    color: red;
+    margin-bottom: 10px;
+}
+.disc .price{
+    padding: 10px 0px;
+    margin-top: 20px;
+}
+.disc .price span{
+    color: red;
+}
+.vat{
+    color: silver;
+    margin-left: 60px;
+    padding-bottom: 10px;
+}
+.disc button{
+    margin-top: 60px;
+    padding: 10px 2px;
+    background-color: #C1262E;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.disc button:hover{
+    background-color: #c1262e3b;
+}
+
+
+
+/* ********************************* Details us *********************** **/

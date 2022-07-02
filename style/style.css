@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.nav div{
+    width: 500px;
+    text-align: center;
+}
+
+/* nav start */
+.nav li,a,button {
+    font-weight: 500;
+    font-size: 16;
+    text-decoration: none;
+    color: black;
+}
+.nav{
+border-bottom: #C1262E 1px solid; 
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.nav-list{
+    width: 1000px;
+    list-style: none;
+    text-align: left;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-list li a:hover{
+    color: #C1262E;
+}
+.nav button{
+    padding: 10px 20px;
+    color: #C1262E;
+    background-color: white;
+    border: 1px solid #C1262E;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}   
+.nav button:hover{
+    color: white;
+    border: none;
+    background-color: C1262E;
+}
+
+/* nav end */
+
+
+
+/* footer start */
+
+.footer{
+    background-color: #2A2A2A;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.footer p{
+    display: inline-block;
+    color: white;
+    padding: 30px;
+}
+/* footer end */
+
+/* User info */
+
+#user_info{
+    display: inline-block;
+    display: none;
+    position: absolute;
+    left: 1200px;
+        top: 41.6px;
+        align-items: center;
+} 
+
+#user_info li{
+    position: relative;
+    cursor: pointer;
+}
+
+
+#user_info .card-products{
+    display: none; 
+    position: absolute;
+    width: 360px;
+    transform: translate(-46%,0);
+    -webkit-transform: translate(-46%,0);
+    -moz-transform: translate(-46%,0);
+    -ms-transform: translate(-46%,0);
+    -o-transform: translate(-46%,0);
+    background-color: white;
+    top: 60.5px;
+    pad: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+#user_info .card-products button{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    width: 356.8px;
+    margin-bottom: 2px;
+
+}
+
+#user_info .card-products p{
+    width: 360px;
+
+}
+
+/* user info end */

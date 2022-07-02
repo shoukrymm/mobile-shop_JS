@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <title>Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css ">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/card.css">
+</head>
+
+<body>
+
+    <!-- Nav start -->
+
+
+    <div class="nav">
+        <table>
+            <tr>
+                <td>
+                    <div><a href="index.html"><img class="logo" width="150" height="100" src="images/logo.jpg"
+                                alt=""></a></div>
+                </td>
+                <td>
+                    <div>
+                        <ul class="nav-list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="card.html">Card</a><sup><span style="color: red;"></span></sup></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <nav style="display: inline-block;" id="links">
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Register</a></li>
+                            </nav>
+                            <nav id="user_info">
+                                <li><a  href="#" style="color: #C1262E;" id="user"></a></li>
+                                <li class="shopping_card">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="shopIcon"><sup style="color: red;"></sup></span>
+                                    <div class="card-products">
+                                        <div></div>
+                                        <a href="card.html"><button>View all products</button></a>
+                                    </div>
+                                </li>
+                                <li><a href="#" style="color: royalblue;" id="logout">Logout</a></li>
+                            </nav>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Nav end -->
+
+
+
+
+    <div class="card">
+        <table></table>
+
+
+        <h1>Shopping Cart</h1>
+        <hr>
+
+        <div class="card_products"></div>
+
+        <!-- <div class="card1"> 
+            <img src="images/1.jpg" alt="">
+            <div class="card-info">
+                <h3 class="title">iPhone 12 Pro Max 256GB Pacific Blue <span class="price">23.500 EGP</span> </h3>
+                <h3 class="rate">❤❤❤❤🤍</h3>
+                <p class="ship">Usually ships within 2 to 3 days.</p><br>
+                <p class="color"><b>Colour:</b> Pacific Blue</p>
+                <div class="card-footer">
+                    <input type="number" name="" id="" class="qty" value="1" readonly>
+                    <button class="deletebtn">Delete</button>
+                </div>
+                
+            </div>
+            <hr>
+        </div> -->
+        <!-- 1 -->
+
+
+        <p class="total">  <span class="totalPrice" style="color: red;"><b></b></span></p>
+        <button class="submitbtn" onclick="submitcard();">Procces To Buy</button>
+
+        
+
+        
+    </div>
+
+
+
+
+
+
+   <!-- footer start -->
+
+   <div class="footer">
+    <p>&copy; Shoukry Mohamed Mohamed Elsayed "ITI Mansoura .NET Track "</p>
+</div>
+<!-- footer end -->
+
+
+<script src="scripts/usermodule.js" type="module"></script>
+<script src="scripts/card.js"></script>
+
+</body>
+</html>

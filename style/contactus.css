@@ -1,0 +1,49 @@
+/* ********************************* contact us *********************** **/
+
+.formtitle{
+    text-align: center;
+    margin-top: 30px;
+    color: #C1262E;
+}
+.form{
+    text-align: left;
+    border-radius: 5px;
+    margin: 30px 450px;
+    padding: 20px;
+    background-color: #F2F2F2;
+    width: 40%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form input,select, textarea{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid silver;
+}
+.form button{
+    padding: 10px 15px;
+    background-color: C1262E;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.form button:hover{
+    background-color: #c1262e33;
+}
+
+
+
+/* ********************************* contact us *********************** **/
